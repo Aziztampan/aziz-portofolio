@@ -17,7 +17,7 @@ appreciateBtn.addEventListener("click", () => {
   myCanvas.style.inset = 0;
   myCanvas.style.width = "100vw";
   myCanvas.style.height = "100vh";
-  myCanvas.style.zIndex = 100;
+  myCanvas.style.zIndex = -1;
   document.body.appendChild(myCanvas);
 
   const myConfetti = confetti.create(myCanvas, {
